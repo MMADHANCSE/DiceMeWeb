@@ -18,8 +18,9 @@ if(random1>random2){
     document.querySelector("h2").innerHTML="🚩 Player 1 Wins!";
 }
 else if(random2>random1){
-    document.querySelector("h2").innerHTML="🚩 Player 2 Wins!";
+    document.querySelector("h2").innerHTML="Player 2 Wins! 🚩";
 }
 else{
     document.querySelector("h2").innerHTML="Draw !";
 }
+
